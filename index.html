@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Prueba</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Página de Prueba</h1>
+    <button onclick="abrirYouTube()">Botón 1</button>
+    <button onclick="alert('Haz clic en Botón 2')">Botón 2</button>
+
+    <script>
+        function abrirYouTube() {
+            window.open('https://www.youtube.com', '_blank');
+        }
+    </script>
+</body>
+</html>
